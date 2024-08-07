@@ -5,8 +5,6 @@ package br.com.geekuniversity.secao05;
 
 public class Exercicio01 {
 	public static void main(String[] args) {
-		int num1;
-		
 		for(int i = 1; i <18; i++ ){
 			
 			if (i %3 == 0) {
