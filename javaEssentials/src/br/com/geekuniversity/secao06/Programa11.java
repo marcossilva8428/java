@@ -5,7 +5,7 @@ package br.com.geekuniversity.secao06;
 public class Programa11 {
 	public static void main(String[] args) {
 		//	Tipo primarios/primitivos
-		long num0 = 99; //	Interio 999999999999999999999999
+		long num0 = 99; //	Interio 999999999999999999999999999
 		int num1 = 4; // Inteiro 9999999999999999
 		short num2 = 4; // Inteiro (curto/menor/baixo) 999999
 		byte num3 = 4; //	Inteiro
@@ -22,16 +22,26 @@ public class Programa11 {
 		System.out.println("int -> Num1 = " + num1);
 		System.out.println("short -> Num2 = " + num2);
 		System.out.println("byte -> Num3 = " + num3);
+		System.out.println("char -> Num8 = " + num8);
+		
 		System.out.println("Integer -> Num4 = " + num4);
 		System.out.println("Short -> Num5 = " + num5);
 		System.out.println("Byte -> Num6 = " + num6);
 		System.out.println("Long -> Num7 = " + num7);
+		System.out.println("Character -> Num9 = " + num9);
 		
+		System.out.println("float/Float " + Float.SIZE + " bits");
+		System.out.println("double/Double " + Double.SIZE + " bits");
 		System.out.println("long/Long " + Long.SIZE + " bits");
 		System.out.println("int/Integer " + Integer.SIZE + " bits");
 		System.out.println("short/Short " + Short.SIZE + " bits");
 		System.out.println("byte/Byte " + Byte.SIZE + " bits");
+		System.out.println("char/Character " + Character.SIZE + " bits");
 		
+		
+		
+		System.out.println("Valor Min double/Long " + Double.MIN_VALUE);
+		System.out.println("Valor Max double/Long " + Double.MAX_VALUE);
 		
 		System.out.println("Valor Min long/Long " + Long.MIN_VALUE);
 		System.out.println("Valor Max long/Long " + Long.MAX_VALUE);
@@ -44,6 +54,9 @@ public class Programa11 {
 		
 		System.out.println("Valor Min byte/Byte " + Byte.MIN_VALUE);
 		System.out.println("Valor Max byte/Byte " + Byte.MAX_VALUE);
+		
+		System.out.println("Valor Min char/Character " + Character.MIN_VALUE); //	0
+		System.out.println("Valor Max char/Character " + Character.MAX_VALUE); //	65535
 	}
 
 }
