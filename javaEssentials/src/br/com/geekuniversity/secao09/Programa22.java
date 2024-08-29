@@ -24,7 +24,7 @@ public class Programa22 {
 		System.out.println("R$"+p1.preco);
 		System.out.println(p1.desconto+"%");
 		
-		p0 = new Produto();
+		p0 = new Produto(); //	Contrutor
 		p0.nome = "Caneta Bic";
 		p0.preco = 2.45f;
 		p0.desconto = 5;
@@ -33,7 +33,7 @@ public class Programa22 {
 		System.out.println("R$"+p0.preco);
 		System.out.println(p0.desconto+"%");
 		
-		Pessoa pessoa1 = new Pessoa();
+		Pessoa pessoa1 = new Pessoa(); //	Construtor
 		pessoa1.nome = "Marcos Silva";
 		pessoa1.email = "marcos@silva.com";
 		pessoa1.ano_nascimento = 1969;
