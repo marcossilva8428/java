@@ -16,10 +16,12 @@ public class Professor extends Pessoa{
 		this.matricula = matricula;
 	}
 	
+	//Overrinding // Sobre escrita de metodo
 	public String toString() {
 		return super.toString() + "\nMatricula: " + this.matricula;
 	}
 	
+	//Overrinding // Sobre escrita de metodo
 	public String getNome() {
 		return "\nProfessor: \n" + super.getNome();
 	}

@@ -31,10 +31,12 @@ public class Aluno extends Pessoa{
 		this.ra = ra;
 	}
 	
+	//Overrinding // Sobre escrita de metodo
 	public String toString() {
 		return super.toString() + "\nR.A: " + this.ra;
 	}
 	
+	//Overrinding // Sobre escrita de metodo
 	public String getNome() {
 		return "Aluno: \n" + super.getNome();
 	}

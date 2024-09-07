@@ -12,6 +12,8 @@ public class Pessoa {
 	private int ano_nascimento;
 	private String email;
 	
+	public Pessoa() {}
+	
 	public Pessoa(String nome, int ano_nascimento, String email) {
 		this.nome = nome;
 		this.ano_nascimento = ano_nascimento;
@@ -42,7 +44,16 @@ public class Pessoa {
 		this.ano_nascimento = ano_nascimento;
 	}
 	
+	//Overrinding // Sobre escrita de metodo
 	public String toString() {
 		return "Nome: " + this.nome + "\nAno nascimento: "+ this.ano_nascimento;
+	}
+	//	Overloading / Sobrecarca de metodo
+	public void mensagem() {
+		System.out.println("Esta é minha mensagem...");
+	}
+	
+	public void mensagem(String msg) {
+		System.out.println(msg);
 	}
 }
