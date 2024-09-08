@@ -3,10 +3,10 @@ package br.com.geekuniversity.secao12;
 
 public class Programa28 {
 	public static void main(String[] args) {
-		Pessoa p1 = new Pessoa("Joao da Silva", 1935, "joao@silva.com");
-		System.out.println(p1.getNome());
-		System.out.println(p1);
-		System.out.println("\n");
+//		Pessoa p1 = new Pessoa("Joao da Silva", 1935, "joao@silva.com");
+//		System.out.println(p1.getNome());
+//		System.out.println(p1);
+//		System.out.println("\n");
 		
 		
 		Aluno a1 = new Aluno("Joelma da Silva", 2001, "joelma@silva.com","1234");

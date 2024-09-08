@@ -7,7 +7,22 @@ package br.com.geekuniversity.secao12;
  * Classe generica
  */
 
-public class Pessoa {
+//	Agora como classe abstrata
+/*
+ * Desta forma, impossibilitamos a criacao de objetos desta classe;
+ * 
+ * Uma classe abstrata pode ter :
+ * 	-atributos;
+ * 	-metodos;
+ * 	-metodos abstratos;
+ * 
+ * 
+ * Metodos abstratos :
+ * 	São metodos que nao possuem implementacao, pussuem apenas 
+ * 	declaracao, e , obrigatoriamente, as classes que herdarem desta
+ * classe com metodos abstratos, precisam implementar estes metodos.
+ */
+public abstract class Pessoa {
 	private String nome;
 	private int ano_nascimento;
 	private String email;
@@ -56,4 +71,7 @@ public class Pessoa {
 	public void mensagem(String msg) {
 		System.out.println(msg);
 	}
+	
+	//	Declaracao de um metodo abstrato
+	public abstract void outra_mensagem(String texto);
 }
