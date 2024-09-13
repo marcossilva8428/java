@@ -8,6 +8,7 @@ import br.com.geekuniversity.secao11.Cliente;
 public class Programa26 {
 
 	public static void main(String[] args) {
+		@SuppressWarnings("unused")
 		Cliente cliente1 = new Cliente("Maria Joaquina","Rua das Alfazemas, 75");
 		
 //		System.out.println("Nome: " + cliente1.nome); //	private

@@ -3,6 +3,7 @@ package br.com.geekuniversity.secao03;
 
 public class Programa01 {
 
+	@SuppressWarnings("unused")//	Decorator
 	public static void main(String[] args) {
 		// Declaração de variável
 		int valor;
