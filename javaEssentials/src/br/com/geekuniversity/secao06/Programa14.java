@@ -2,6 +2,7 @@ package br.com.geekuniversity.secao06;
 //	Tipos booleanos
 
 public class Programa14 {
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		//	Tipos primitivos
 		boolean verdadeiro = true;

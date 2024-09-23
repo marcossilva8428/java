@@ -15,6 +15,7 @@ package br.com.geekuniversity.secao07;
  */
 
 public class Programa16 {
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		//	Declarando um vetor
 		int vet1[];

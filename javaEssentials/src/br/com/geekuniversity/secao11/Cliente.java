@@ -9,7 +9,7 @@ package br.com.geekuniversity.secao11;
  * pacote onde o elemento foi declarado.
  */
 
-public class Cliente {
+public class Cliente{
 	private String nome;
 	private String endereco;
 	
