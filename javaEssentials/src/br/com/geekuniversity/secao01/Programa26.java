@@ -9,7 +9,7 @@ public class Programa26 {
 
 	public static void main(String[] args) {
 		@SuppressWarnings("unused")
-		Cliente cliente1 = new Cliente("Maria Joaquina","Rua das Alfazemas, 75");
+		Cliente cliente1 = new Cliente(59,"Maria Joaquina","Rua das Alfazemas, 75");
 		
 //		System.out.println("Nome: " + cliente1.nome); //	private
 //		System.out.println("Endereco: " + cliente1.endereco);//	private

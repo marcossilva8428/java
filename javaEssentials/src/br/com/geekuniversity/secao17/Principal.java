@@ -17,7 +17,7 @@ import br.com.geekuniversity.secao11.Conta;
 
 public class Principal {
 	
-	static Cliente cliente = new Cliente("Marcos Joaquim", "Rua das betoneiras, 501");
+	static Cliente cliente = new Cliente(37,"Marcos Joaquim", "Rua das betoneiras, 501");
 	static Conta conta = new Conta(1,200,300, cliente);
 	static Scanner sc = new Scanner(System.in);
 	

@@ -11,8 +11,8 @@ import br.com.geekuniversity.secao11.Conta;
 
 public class Programa39 {
 	public static void main(String[] args) {
-		Cliente cli1 = new Cliente("Jefferson Queixudo","Rua França, 222");
-		Cliente cli2 = new Cliente("Michael Maos Pequenas","Rua Conta Gota, 47");
+		Cliente cli1 = new Cliente(38,"Jefferson Queixudo","Rua França, 222");
+		Cliente cli2 = new Cliente(35,"Michael Maos Pequenas","Rua Conta Gota, 47");
 		Conta c1 = new Conta(1, 200,300,cli1);
 		Conta c2 = new Conta(2,500,600,cli2);
 		
