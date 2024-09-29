@@ -21,16 +21,15 @@ public class Exercicio01 {
 		
 		try {
 		PrintStream escrever = new PrintStream(new FileOutputStream("arq.txt", true));
-		int msg;
+		String msg;
 		for(int i = 1 ; i != 0; i++) {
 			System.out.println("Escreva algo: ");
-			msg = teclado.nextInt();
-			escrever.println(msg);
-			if (msg == 0) {
+			msg = teclado.next();
+			if (msg.equals("0")) {
 				break;
 			}
+			escrever.println(msg);
 		}
-
 		escrever.close();
 		}catch(FileNotFoundException e) {
 			System.out.println("Não foi possivel criar o arquivo");
