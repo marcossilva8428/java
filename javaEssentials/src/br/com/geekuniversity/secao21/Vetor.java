@@ -7,11 +7,13 @@ public class Vetor {
 	private int total = 0;
 	
 	public void adiciona(Aluno aluno) {
+		this.garantirEspaco();
 		this.alunos[total] = aluno;
 		total = total +1;
 	}
 	
 	public void adiciona(int posicao, Aluno aluno) {
+		this.garantirEspaco();
 		if (!posicaoOcupada(posicao)) {
 			throw new IllegalArgumentException("Posicao invalida");
 		}
@@ -67,6 +69,7 @@ public class Vetor {
 			for(int i = 0; i< alunos.length; i++) {
 				novoArray[i]= alunos[i];
 			}
+			//	Por ultimo atribuimos o novo array  ao array original
 			this.alunos = novoArray;
 		}
 	}
