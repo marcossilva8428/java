@@ -1,6 +1,7 @@
 package br.com.geekuniversity.secao07;
 //	Vetores parte1
 //	Arrays (vetores uni-dimensionais)
+//[0][1][2][3][4][5]
 
 /*
  int numeros[5]; //0 ..4 (n -1) 5 -1 = 4
