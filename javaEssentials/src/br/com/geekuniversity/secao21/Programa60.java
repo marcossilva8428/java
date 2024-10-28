@@ -9,6 +9,8 @@ package br.com.geekuniversity.secao21;
  * 
  * para remover elementos da pilha, só podemos remover o topo.
  * 
+ *O ultimo elemento a entrar é o primeiro a sair.
+ * 
  * [4] - > Tem visibilidade
  * [8]
  * [4]
